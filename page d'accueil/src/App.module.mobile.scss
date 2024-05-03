@@ -1,0 +1,8 @@
+@use "../src/assets/styles/mixin" as mixin;
+
+
+.Header {
+    @media (max-width:500px) {
+     height: 500px;
+    }
+    }

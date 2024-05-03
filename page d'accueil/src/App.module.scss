@@ -1,0 +1,371 @@
+ .Header {
+   height: 131px;
+   position: relative;
+   background-color: white;
+   z-index: 1;
+
+   .Logo {
+    width: 122px;
+    height: 49px;
+    left:100px;
+    top: 33px;
+    position: absolute;
+   }
+    .LogoTitle {
+        width: 122px;
+        height: 49px;
+        left: 0;
+        top: 0;
+        font-size: 50px;
+        font-weight: 700;
+        color: black;
+    }
+    .Menu {
+        right: 230px;
+        top: 47px;
+        position: absolute;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 52px;
+        display: inline-flex;
+    }
+    .MenuName {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .MenuTitle {
+        color: #131313;
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+    .Connexion {
+        padding: 10px 24px 10px 10px;
+        right: 2px;
+        top: 26px;
+        position: absolute;
+        background-color: #131313;
+        border-radius: 100px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .ButtonConnexion {
+        padding: 10px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        
+    }
+    .ButtonConnexion2 {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        
+    }
+ 
+    .ConnexionName {
+        color: white;
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 700;
+        overflow-wrap: break-word;
+    }
+    .ConnexionToggle {
+        width: 18px;
+        height: 18px;
+        position: relative;
+    }
+   
+    
+}
+    
+.Banniere {
+    height: 697.88px;
+    position: relative;
+    background-image: url(../public/unsplash_1Z2niiBPg5A.png);
+    .BanniereLorem {
+       width: 610px;
+       left: 92px;
+       top: 189px;
+       position: absolute;
+       color: white;
+       font-size: 24px;
+       font-family: Manrope;
+       font-weight: 500;
+       text-transform: capitalize;
+       overflow-wrap: break-word;
+    }
+    .BanniereLoremTitle {
+        left: 96px;
+        top: 87px;
+        position: absolute;
+        color: white;
+        font-size: 32px;
+        font-family: Mulish;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.32px;
+        overflow-wrap: break-word;
+    }
+    .BanniereVoyage {
+        padding: 12px 26px;
+        left: 96px;
+        top: 292px;
+        position: absolute;
+        background: rgb(195, 0, 0);
+        border-radius: 300px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex;
+    }
+    .BanniereVoyageTitle {
+        color: white;
+        font-size: 20px;
+        font-family: Manrope;
+        font-weight: 700;
+        overflow-wrap: break-word;
+    }
+    .BanniereChoisir {
+        left: 680px;
+        bottom: 100px;
+        position: absolute;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+        display: inline-flex;
+    }
+    .BanniereChoisirLogo {
+        width: 10px;
+        height: 10px;
+        background: rgb(217, 217, 217);
+        border-radius: 9999px;
+    }
+    .BanniereFirst {
+        width: 14px;
+        height: 14px;
+        background: white;
+        border-radius: 9999px;
+    }
+    .BanniereSecond {
+        width: 10px;
+        height: 10px;
+        background: rgb(217, 217, 217);
+        border-radius: 9999px;
+    }
+    .BanniereThird {
+        width: 10px;
+        height: 10px;
+        background: rgb(217, 217, 217);
+        border-radius: 9999px;
+    }
+}
+
+
+
+.Footer {
+    width: 100%;
+    height: 526px;
+    padding: 64px 128px;
+    background: rgb(28, 28, 32);
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    .FooterContainer1 {
+        flex: 1 1 0px;
+        align-self: stretch;
+        flex-direction: column;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .Newsletters {
+        height: 160px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 32px;
+    }
+    .NewslettersTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: stretch;
+        height: 80px;
+        gap: 24px;
+    }
+    .TitleSubscribe {
+        width: 469px;
+        color: white;
+        font-size: 40px;
+        font-family: Spectral;
+        font-weight: 400;
+        overflow-wrap: break-word;
+    }
+    .NewslettersEmail {
+        align-self: stretch;
+        padding: 14px 20px;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid rgb(52, 52, 60);
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .EmailName {
+        opacity: 0.5;
+        color: white;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        overflow-wrap: break-word
+    }
+    
+    .SocialNetwork {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    
+    .FooterContainer2 {
+        width: 484px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 140px;
+    }
+    .AboutContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: stretch;
+        height: 294px;
+        gap: 48px;
+    }
+    .AboutUs {
+        align-self: stretch;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .AboutLeft {
+        flex: 1 1 0px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .AboutLeftName {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: stretch;
+        height: 124px;
+        gap: 6px;
+    }
+    .AboutName {
+        align-self: stretch;
+        opacity: 0.8;
+        color: white;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        overflow-wrap: break-word;
+    }
+    .AboutRight {
+        flex: 1 1 0px;
+        padding-top: 38px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .ContactUs {
+        align-self: stretch;
+        height: 84px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .AboutContactTitle {
+        align-self: stretch;
+        opacity: 0.4;
+        color: white;
+        font-size: 10px;
+        font-family: Inter;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        overflow-wrap: break-word;
+    }
+    .ContactPerson {
+        align-self: stretch;
+        height: 46px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .ContactNumber {
+        align-self: stretch;
+        opacity: 0.8;
+        color: white;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        overflow-wrap: break-word;
+    }
+    .ContactMail {
+        align-self: stretch;
+        opacity: 0.8;
+        color: white;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        overflow-wrap: break-word;
+    }
+    .PC {
+        align-self: stretch;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        
+    }
+    .PCName {
+        opacity: 0.4;
+        text-align: right;
+        color: white;
+        font-size: 10px;
+        font-family: Inter;
+        font-weight: 500;
+        overflow-wrap: break-word;
+    }
+
+}
+
+
+
+
