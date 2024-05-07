@@ -17,7 +17,7 @@ export default function Header() {
           <div className={styles["LogoTitle"]}>Logo</div>
         </div>
 
-        <div className={styles["MobileMenu"]} onClick={toggleMobileMenu}>
+        <div className={`${styles["MobileMenu"]} ${styles["MenuMobile"]}`} onClick={toggleMobileMenu}>
                 <FontAwesomeIcon icon={isMobileMenuOpen ? faTimes : faBars} style={{color:"black",fontSize:100 }} />
             </div>
 

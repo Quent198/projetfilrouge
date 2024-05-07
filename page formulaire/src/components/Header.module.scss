@@ -23,9 +23,11 @@
          color: black;
      }
      .MenuMobile {
+        display: none;
         @media (max-width:500px) {
             display: flex;
-            justify-content: flex-end;
+            align-items: center;
+            margin-right: 10px;
         }
      }
      .Menu {
@@ -35,7 +37,10 @@
          justify-content: flex-start;
          align-items: center;
          gap: 52px;
-         display: inline-flex;
+         display: inline-flex; 
+         @media (max-width:500px) {
+            display: none;
+         }
          
      }
    
@@ -94,6 +99,23 @@
          height: 18px;
          position: relative;
      }
+     .MenuMobile {
+        @media (max-width: 500px) {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 10px;
+        }
+    }
     
+    .MobileMenuOpen {
+        @media (max-width: 500px) {
+            display: flex !important;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 10px;
+            transform: translateY(0%);
+        }
+    }
      
  }
